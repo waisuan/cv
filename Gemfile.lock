@@ -250,19 +250,11 @@ GEM
     wdm (0.1.1)
     webrick (1.8.1)
 
-GEM
-  remote: https://rubygems.pkg.github.com/sproogen/
-  specs:
-    modern-resume-theme (2.0.10)
-      github-pages (~> 209)
-      jekyll-seo-tag (~> 2.1)
-
 PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  github-pages (~> 209)
-  modern-resume-theme (= 2.0.10)!
+  github-pages
   tzinfo-data
   wdm (~> 0.1.0)
   webrick (~> 1.8)
