@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Evan Sia
-title: Senior Software Engineer @ Deliveroo
+title: Staff Software Engineer @ Deliveroo
 email: e-sia@outlook.com
 phone: "+447578787799"
 
@@ -48,7 +48,7 @@ content:
         title: Deliveroo, UK
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Software Engineer
+        sub_title: Staff Software Engineer
         caption: May 2021 - Present
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
