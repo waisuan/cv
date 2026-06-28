@@ -46,22 +46,18 @@ content:
     content:
       - layout: left
         title: Deliveroo, UK
-        # link: boringcompany.com
-        # link_text: boringcompany.com
         sub_title: Staff Software Engineer
         caption: May 2021 - Present
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Tech lead of the order-tracker engineering team.
-            - Drove the team’s database migration project from ideation to completion; bringing down data storage costs by ~85%.
-            - Lead and developed a feature to allow customers to tip their riders through a web interface.
-            - Improved the accuracy of the estimated amount of time it would take for an order to arrive at the customer’s address.
-            - Enhanced the consumer experience for when an order required more than one rider to deliver to an address.
-            - Created software solutions to ensure that the org complied with the regulations defined for delivering orders containing age-restricted products.
-            - Developed software to help reduce teams’ operational costs (org-wide).
-            - Part of an internal committee that reviews technical design documents produced from within the tech org.
-            - <mark>Tech stack</mark>: Ruby, RubyOnRails, Golang, PostgreSQL, DynamoDB, Kafka, Git, Docker, Terraform, AWS
+            - Tech Lead for the Order Tracker team, defining technical strategy and delivery across a multi-year platform vision.
+            - Partner with product and engineering leadership to shape roadmap decisions and align investments with business outcomes.
+            - Led a database migration programme that reduced storage costs by ~85%.
+            - Used experimentation and product metrics to validate impact and guide iterative delivery.
+            - Introduced pre-staging environments and automated testing, significantly reducing development feedback cycles.
+            - Applied AI-assisted development tools (Claude, Codex) to accelerate design, implementation, and technical investigation.
+            - Collaborated with merchant-facing teams to deliver improvements to Deliveroo's restaurant order management platform.
+            - Drove observability and incident learning through post-incident reviews and remediation programmes.
+            - <mark>Tech stack</mark>: Ruby, RoR, Golang, PostgreSQL, DynamoDB, Kafka, Git, Docker, Terraform, AWS, React, TypeScript
       - layout: left
         title: AlphaSights, UK
         sub_title: Software Engineer
@@ -86,20 +82,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Clown-CMS
-        # link: github.com/sproogen
-        # link_text: Project Website
+        title: Ralts-CMS
+        link: github.com/waisuan/ralts-cms
+        link_text: Repo
         additional_links:
-          - title: Back-end
+          - title: Source code
             icon: fab fa-github
-            url: github.com/waisuan/roti
-          - title: Front-end
-            icon: fab fa-github
-            url: github.com/waisuan/clown
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            url: github.com/waisuan/ralts-cms
         description: | # this will include new lines to allow paragraphs
-          A web app that allows a group of users to to log their sales activity.
+          A content management web application used by real users to keep track of their sales.
 
           Features include:-
           - Full-text search
@@ -110,7 +101,7 @@ content:
           - AuthN + AuthZ
           - Admin control panel
 
-          Built with <mark>Angular</mark> as the frontend, <mark>Kotlin</mark> as the backend, and <mark>PostgreSQL</mark> as the data source. The app is hosted on <mark>Heroku</mark> whereas the database resides on <mark>AWS (RDS)</mark>.
+          Built with <mark>React</mark> as the frontend, <mark>Golang</mark> as the backend, and <mark>PostgreSQL</mark> as the data storage. The app is hosted on <mark>Railway</mark>.
       - layout: top-middle
         title: Alfred-bot
         additional_links:
