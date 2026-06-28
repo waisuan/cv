@@ -83,8 +83,6 @@ content:
     content:
       - layout: top-middle
         title: Ralts-CMS
-        link: github.com/waisuan/ralts-cms
-        link_text: Repo
         additional_links:
           - title: Source code
             icon: fab fa-github
